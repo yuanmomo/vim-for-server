@@ -25,12 +25,12 @@ cp ~/.vimrc ~/.vimrc_bak
 
 recommend
 ```
-curl https://raw.githubusercontent.com/wklken/vim-for-server/master/vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/yuanmomo/vim-for-server/master/vimrc > ~/.vimrc
 ```
 or  use git
 
 ```
-git clone https://github.com/wklken/vim-for-server.git
+git  https://github.com/yuanmomo/vim-for-server
 ln -s vim-for-server/vimrc ~/.vimrc
 ```
 
