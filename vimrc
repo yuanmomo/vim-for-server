@@ -246,7 +246,6 @@ nnoremap ; :
 cmap w!! w !sudo tee >/dev/null %
 
 " command mode, ctrl-a to head， ctrl-e to tail
-cnoremap <C-j> <t_kd>
-cnoremap <C-k> <t_ku>
-cnoremap <C-a> <Home>
-cnoremap <C-e> <End>
+noremap H ^
+noremap L $
+noremap W viw
