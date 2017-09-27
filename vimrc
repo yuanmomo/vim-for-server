@@ -248,4 +248,37 @@ cmap w!! w !sudo tee >/dev/null %
 " command mode, ctrl-a to head， ctrl-e to tail
 noremap H ^
 noremap L $
+
+"==========================================
+" HotKey Settings  自定义快捷键设置
+"==========================================
+
+" In addition to the above, you could use the following to replace visually
+" selected text with the last yanked text.
+" gain, you can quickly repeat this by selecting some more text and pressing
+" s to make the same change.
+"vnoremap p "_dP
+nnoremap s viw"_dP
+" share system clipboard
+
+" Go to home and end using capitalized directions
+noremap dL d$
 noremap W viw
+noremap yw yiw
+nnoremap dw diw
+noremap <C-i> i<CR><Esc>
+
+" copy text to clipboard
+vnoremap Y "+y
+" paste from clipboard
+nnoremap <C-p> "+p
+
+nunmap <space>
+
+" ,j to 5j
+noremap <space>b 5b
+noremap <space>w 5w
+noremap <space>h 5h
+noremap <space>j 5j
+noremap <space>k 5k
+noremap <space>l 5l
