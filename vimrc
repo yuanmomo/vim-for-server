@@ -273,8 +273,6 @@ vnoremap Y "+y
 " paste from clipboard
 nnoremap <C-p> "+p
 
-nunmap <space>
-
 " ,j to 5j
 noremap <space>b 5b
 noremap <space>w 5w
